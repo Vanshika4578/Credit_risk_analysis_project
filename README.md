@@ -22,9 +22,13 @@ The goal is to classify loan applicants into **Low, Medium, or High Risk** categ
 
 ## 📂 Project Structure
 Credit_Risk_Analysis/
+
 │── data/ # Dataset (Credit risk CSV)
+
 │── excel/ # Excel scoring model with risk classification
+
 │── sql/ # SQL scripts for analysis
+
 └── README.md # Documentation
 
 

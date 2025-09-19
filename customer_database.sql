@@ -1,5 +1,5 @@
 
-select max(`Credit amount`) from customer_database;
+select * from customer_database;
 
 /*Count customers per risk level and flag "big loans"*/
 SELECT 
@@ -102,7 +102,27 @@ FROM customer_database
 GROUP BY Risk;
 
 
-CREATE TABLE `repayments table`{
-ID INT PRIMARY KEY,
+/*Repayment preformance by risk category*/
+CREATE TABLE Repayments AS
+SELECT ID,
+       CASE 
+           WHEN Risk = 'High Risk' AND RAND() < 0.5 THEN 'Default'
+           WHEN Risk = 'Medium Risk' AND RAND() < 0.2 THEN 'Default'
+           WHEN Risk = 'Low Risk' AND RAND() < 0.05 THEN 'Default'
+           ELSE 'Paid'
+       END AS repayment_status
+FROM customer_database;
+
+SELECT c.Risk, r.repayment_status, COUNT(*) AS num_customers
+FROM customer_database c
+JOIN repayments r
+  ON c.id = r.id
+GROUP BY c.Risk, r.repayment_status
+ORDER BY c.Risk, r.repayment_status;
+
+
+
+
+
 
  

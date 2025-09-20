@@ -1,5 +1,5 @@
-Credit Risk Analysis Project
-📌 Project Overview
+📊 Credit Risk Analysis Project
+📝 Overview
 
 This project analyzes the German Credit Dataset to understand customer risk levels based on demographics, financial status, and loan details.
 The workflow combines Excel (data cleaning & risk scoring), SQL (analysis queries), and Power BI (dashboard visualization) to deliver business-friendly insights.
@@ -61,7 +61,7 @@ Power BI
 * Tree map: Customers by housing type.
 
 📷 Dashboard Preview
-![Dashboard Preview](./assets/dashboard_screnshot.png)
+![Dashboard Preview](dashboard_screnshot.png)
 
 
 🚀 How This Helps Recruiters

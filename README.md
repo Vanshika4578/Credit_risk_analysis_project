@@ -1,32 +1,31 @@
 ## 📊 Credit Risk Analysis Project
 ## 📝 Overview
 
-This project analyzes the German Credit Dataset to understand customer risk levels based on demographics, financial status, and loan details.
-The workflow combines Excel (data cleaning & risk scoring), SQL (analysis queries), and Power BI (dashboard visualization) to deliver business-friendly insights.
+This project analyzes the German Credit Dataset to assess customer credit risk based on demographics, financial status, and loan details. The end-to-end workflow involves data cleaning in Excel, in-depth analysis with SQL, and building an interactive dashboard in Power BI to derive actionable business insights.
 
 ---
 
 ## 📂 Project Structure
 CREDIT-RISK-ANALYSIS-PROJECT
 
-# Data:
+### Data:
    └── Credit_risk_analysis_raw.csv        # Original dataset
 
 
-# Excel:
+### Excel:
    └── Credit_risk_analysis_cleaned.xlsx   # Cleaned dataset + credit scoring logic
 
 
-# SQL:
+### SQL:
    └── customer_database_analysis.sql      # SQL queries & analysis
 
 
-# PowerBI:
+### PowerBI:
    ├── Visual_analysis.pbix                # Interactive Power BI dashboard
    └── Dashboard_screenshot.png            # Snapshot of dashboard
 
 
-# README.md                               # Project documentation
+### README.md                               # Project documentation
 
 ---
 
@@ -42,7 +41,7 @@ Power BI → Dashboard with interactive visuals to analyze credit trends.
 ## 📊 Key Analysis & Insights
 Excel
 
-* Cleaned raw dataset.
+* 
 
 * Created credit scoring system (65–170).
 
@@ -58,7 +57,7 @@ SQL
 
 Power BI
 
-* KPIs: total customers, average credit amount, average duration.
+* KPIs: total customers, average credit amount, average loan duration.
 
 * Line chart: Credit amount trend by loan duration & age group.
 

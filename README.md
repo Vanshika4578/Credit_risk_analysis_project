@@ -25,7 +25,8 @@ CREDIT-RISK-ANALYSIS-PROJECT
    └── Dashboard_screenshot.png: Snapshot of dashboard
 
 
-### README.md: Project documentation
+### README.md: 
+Project documentation
 
 ---
 
@@ -38,34 +39,31 @@ Power BI → Dashboard with interactive visuals to analyze credit trends.
 
 --- 
 
-## 📊 Key Analysis & Insights
-Excel
+## 📊 Stakeholder Insights
 
-* 
+### 👔 For Bank Management (Strategic Level)
 
-* Created credit scoring system (65–170).
+High-Risk customers borrow larger amounts → higher default exposure concentrated in a small group.
 
-* Categorized customers into Low, Medium, High risk.
+30–45 year olds are the bank’s largest borrower segment → strategy should focus on retaining this group while monitoring risk.
 
-SQL
+Owned housing customers are most stable, while renters show higher risk → housing type can be used in credit policy.
 
-* Ran queries to segment customers by age, housing, and credit amount.
+### 💰 For Risk & Compliance Teams
 
-* Used CTEs, window functions, and joins to enrich insights.
+No checking account balance = strongest risk signal → policy can flag these cases for stricter checks.
 
-* Identified relationships between customer demographics and risk.
+Younger customers (<25) show higher risk concentration → require tighter eligibility filters.
 
-Power BI
+Loan duration ≥48 months is linked to higher loan amounts → long-term lending increases exposure, needs stress testing.
 
-* KPIs: total customers, average credit amount, average loan duration.
+### 🏦 For Lending Officers (Operational Level)
 
-* Line chart: Credit amount trend by loan duration & age group.
+Savings and checking accounts are useful early indicators for assessing customer strength.
 
-* Stacked bar: Customers by age group and risk.
+Medium Risk customers form the largest pool → opportunity to upsell smaller loans safely.
 
-* Donut chart: Average credit amount by checking account type.
-
-* Tree map: Customers by housing type.
+High-Risk customers taking big loans → require more frequent monitoring after disbursement.
 
 ---
 

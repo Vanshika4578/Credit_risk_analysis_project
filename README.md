@@ -21,11 +21,11 @@ CREDIT-RISK-ANALYSIS-PROJECT
 
 
 ### PowerBI:
-   ├── Visual_analysis.pbix                # Interactive Power BI dashboard
-   └── Dashboard_screenshot.png            # Snapshot of dashboard
+   ├── Visual_analysis.pbix: Interactive Power BI dashboard
+   └── Dashboard_screenshot.png: Snapshot of dashboard
 
 
-### README.md                               # Project documentation
+### README.md: Project documentation
 
 ---
 

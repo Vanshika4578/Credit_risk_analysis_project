@@ -1,37 +1,75 @@
-# Credit Risk Decisioning Analysis (Excel + SQL)
+Credit Risk Analysis Project
+📌 Project Overview
 
-## 📌 Project Overview
-This project simulates a **credit risk scoring and decisioning system** using Excel and SQL.  
-The goal is to classify loan applicants into **Low, Medium, or High Risk** categories and analyze repayment outcomes to support better credit decisions.
+This project analyzes the German Credit Dataset to understand customer risk levels based on demographics, financial status, and loan details.
+The workflow combines Excel (data cleaning & risk scoring), SQL (analysis queries), and Power BI (dashboard visualization) to deliver business-friendly insights.
 
-## 🔧 Tools & Techniques
-- **Excel** → Lookup tables, weighted scoring model, pivot tables, conditional formatting  
-- **SQL** → Joins, Common Table Expressions (CTEs), Window Functions, and aggregation for portfolio-level insights  
-
-## 📊 Key Features
-- Designed a **credit scoring model in Excel** to classify customers into risk groups  
-- Built **pivot tables** to analyze risk across age groups, loan amounts, purposes, and housing status  
-- Created a **repayments table** (simulated) and used **SQL joins** to validate risk scoring against repayment outcomes  
-- Applied **window functions** to calculate default percentages, rank customers, and segment portfolios  
-
-## 📈 Sample Insights
-- High Risk customers under 25 showed a **50%+ default rate**  
-- Medium Risk customers had ~20% default rate  
-- Low Risk customers showed **<5% default rate**  
-- Larger loan amounts (>10,000) were disproportionately high risk  
-
-## 📂 Project Structure
-Credit_Risk_Analysis/
-
-│── data/ # Dataset (Credit risk CSV)
-
-│── excel/ # Excel scoring model with risk classification
-
-│── sql/ # SQL scripts for analysis
-
-└── README.md # Documentation
+📂 Project Structure
+CREDIT-RISK-ANALYSIS-PROJECT/
+│
+├── Data/
+│   └── Credit_risk_analysis_raw.csv        # Original dataset
+│
+├── Excel/
+│   └── Credit_risk_analysis_cleaned.xlsx   # Cleaned dataset + credit scoring logic
+│
+├── SQL/
+│   └── customer_database_analysis.sql      # SQL queries & analysis
+│
+├── PowerBI/
+│   ├── Visual_analysis.pbix                # Interactive Power BI dashboard
+│   └── Dashboard_screenshot.png            # Snapshot of dashboard
+│
+└── README.md                               # Project documentation
 
 
-## 🚀 Next Steps
-- Extend analysis with **Power BI dashboards** for interactive visualization  
-- Explore **machine learning models** to automate credit scoring  
+🛠 Tools Used
+Excel → Data cleaning, credit scoring model, risk categorization.
+
+SQL → Advanced queries (aggregations, CTEs, window functions, joins).
+
+Power BI → Dashboard with interactive visuals to analyze credit trends.
+
+
+📊 Key Analysis & Insights
+Excel
+
+* Cleaned raw dataset.
+
+* Created credit scoring system (65–170).
+
+* Categorized customers into Low, Medium, High risk.
+
+SQL
+
+* Ran queries to segment customers by age, housing, and credit amount.
+
+* Used CTEs, window functions, and joins to enrich insights.
+
+* Identified relationships between customer demographics and risk.
+
+Power BI
+
+* KPIs: total customers, average credit amount, average duration.
+
+* Line chart: Credit amount trend by loan duration & age group.
+
+* Stacked bar: Customers by age group and risk.
+
+* Donut chart: Average credit amount by checking account type.
+
+* Tree map: Customers by housing type.
+
+📷 Dashboard Preview
+![Dashboard Preview](./assets/dashboard_screnshot.png)
+
+
+🚀 How This Helps Recruiters
+
+Shows ability to work with real-world datasets.
+
+Demonstrates end-to-end workflow: cleaning → SQL queries → visualization.
+
+Uses industry-relevant tools (Excel, SQL, Power BI).
+
+Dashboard + code both included for reproducibility.

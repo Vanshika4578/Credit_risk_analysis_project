@@ -7,26 +7,26 @@ The workflow combines Excel (data cleaning & risk scoring), SQL (analysis querie
 ---
 
 ## 📂 Project Structure
-CREDIT-RISK-ANALYSIS-PROJECT/
-│
-├── Data/
-│   └── Credit_risk_analysis_raw.csv        # Original dataset
-│
+CREDIT-RISK-ANALYSIS-PROJECT
 
-├── Excel/
-│   └── Credit_risk_analysis_cleaned.xlsx   # Cleaned dataset + credit scoring logic
+Data/
+   └── Credit_risk_analysis_raw.csv        # Original dataset
 
-│
-├── SQL/
-│   └── customer_database_analysis.sql      # SQL queries & analysis
 
-│
-├── PowerBI/
-│   ├── Visual_analysis.pbix                # Interactive Power BI dashboard
-│   └── Dashboard_screenshot.png            # Snapshot of dashboard
+Excel/
+   └── Credit_risk_analysis_cleaned.xlsx   # Cleaned dataset + credit scoring logic
 
-│
-└── README.md                               # Project documentation
+
+SQL/
+   └── customer_database_analysis.sql      # SQL queries & analysis
+
+
+PowerBI/
+   ├── Visual_analysis.pbix                # Interactive Power BI dashboard
+   └── Dashboard_screenshot.png            # Snapshot of dashboard
+
+
+README.md                               # Project documentation
 
 ---
 

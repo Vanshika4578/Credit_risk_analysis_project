@@ -9,15 +9,18 @@ This project analyzes the German Credit Dataset to assess customer credit risk b
 CREDIT-RISK-ANALYSIS-PROJECT
 
 ### Data:
-   └── Credit_risk_analysis_raw.csv        # Original dataset
+   
+   Credit_risk_analysis_raw.csv: Original dataset
 
 
 ### Excel:
-   └── Credit_risk_analysis_cleaned.xlsx   # Cleaned dataset + credit scoring logic
+   
+   Credit_risk_analysis_cleaned.xlsx: Cleaned dataset + credit scoring logic
 
 
 ### SQL:
-   └── customer_database_analysis.sql      # SQL queries & analysis
+   
+   customer_database_analysis.sql: SQL queries & analysis
 
 
 ### PowerBI:
